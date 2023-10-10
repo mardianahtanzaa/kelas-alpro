@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(){
+    printf("Halo, ini adalah teks output\n");
+    printf("Nama saya adalah %s\n", "Nana");
+    printf("Usia saya adalah %d\n", 20);
+    return 0;
+}

@@ -2,7 +2,7 @@
 
 void main(){
 
-    int x, y;
+    float x, y;
 
     printf("Inputkan nilai x: ");
     scanf("%d", &x);
@@ -10,10 +10,9 @@ void main(){
     printf("Inputkan nilai y: ");
     scanf("%d", &y);
 
-    printf("Hasil x + y: %d\n", x + y);
-    printf("Hasil x - y: %d\n", x - y);
-    printf("Hasil x * y: %d\n", x * y);
-    printf("Hasil x / y: %d\n", x / y);
-    printf("Hasil x % y: %d\n", x % y);
+    printf("Hasil x + y: %.2f\n", x + y);
+    printf("Hasil x - y: %.2f\n", x - y);
+    printf("Hasil x * y: %.2f\n", x * y);
+    printf("Hasil x / y: %.2f\n", x / y);
 
 }

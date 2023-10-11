@@ -5,10 +5,10 @@ int main () {
     char nama[40], alamat_web[50];
 
     printf("Nama: ");
-    scanf("%s", &nama);
+    scanf("%[^\n]s", &nama);
 
     printf("Alamat web: ");
-    scanf("%s", &alamat_web);
+    scanf("%[^\n]s", &alamat_web);
 
     printf("\n======================\n");
     printf("Nama yang akan diinput: %s\n", nama);

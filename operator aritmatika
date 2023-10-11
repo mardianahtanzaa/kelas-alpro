@@ -2,7 +2,7 @@
 
 void main(){
 
-    int x, y, z;
+    int x, y;
 
     printf("Inputkan nilai x: ");
     scanf("%d", &x);
@@ -10,8 +10,10 @@ void main(){
     printf("Inputkan nilai y: ");
     scanf("%d", &y);
 
-    z = x + y;
-
-    printf("Hasil x + y: %d", z);
+    printf("Hasil x + y: %d\n", x + y);
+    printf("Hasil x - y: %d\n", x - y);
+    printf("Hasil x * y: %d\n", x * y);
+    printf("Hasil x / y: %d\n", x / y);
+    printf("Hasil x % y: %d\n", x % y);
 
 }

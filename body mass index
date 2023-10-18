@@ -15,8 +15,8 @@ int main() {
             printf("Masukkan tinggi badan (cm) :");
             scanf("%f", &tinggi);
             
-    tinggi = tinggi / 100;
-    bmi = berat / (tinggi * tinggi);
+        tinggi = tinggi / 100;
+        bmi = berat / (tinggi * tinggi);
     // Menampilkan hasil BMI
     printf("BMI Anda: %.2f\n", bmi);
 
@@ -35,8 +35,8 @@ int main() {
             printf("Masukkan tinggi badan (cm) :");
             scanf("%f", &tinggi);
             
-    tinggi = tinggi / 100;
-    bmi = berat / (tinggi * tinggi);
+        tinggi = tinggi / 100;
+        bmi = berat / (tinggi * tinggi);
     // Menampilkan hasil BMI
     printf("BMI Anda: %.2f\n", bmi);
     
